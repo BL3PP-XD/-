@@ -4,7 +4,7 @@ class Target:
 
 class Adaptee:
     def specific_request(self):
-        print("Запрос от Adapter'a")
+        print("Выполняем запрос от Adapter'a")
 
 class Adapter(Target):
     def __init__(self, adaptee):
