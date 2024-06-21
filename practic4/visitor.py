@@ -14,14 +14,14 @@ class ElementA(Element):
         visitor.visit_element_a(self)
 
     def operation_a(self):
-        print("Операция с элементом A")
+        print("Операция с элементом №1")
 
 class ElementB(Element):
     def accept(self, visitor):
         visitor.visit_element_b(self)
 
     def operation_b(self):
-        print("Операция с элементом B")
+        print("Операция с элементом №2")
 
 class SomeVisitor(Visitor):
     def visit_element_a(self, element):
