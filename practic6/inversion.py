@@ -1,6 +1,6 @@
 class Processor:
     def process(self, callback):
-        print("Выполняется обработка...")
+        print(" Выполняется обработка...")
         callback()
         print("Обработка завершена.")
 
