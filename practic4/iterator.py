@@ -13,7 +13,7 @@ class Iterator:
         return self._index < len(self._container)
 
 if __name__ == "__main__":
-    vec = [4, 5, 6, 7, 83]
+    vec = [12, 21, 37, 73, 88]
 
     it = Iterator(vec)
 
