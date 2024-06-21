@@ -13,9 +13,9 @@ class Proxy(Subject):
     def request(self):
         if self._real_subject is None:
             self._real_subject = RealSubject()
-        print("Proxy: Дополнительная логика перед выполнением запроса.")
+        print("Proxy: Дополнительное действие перед выполнением запроса.")
         self._real_subject.request()
-        print("Proxy: Дополнительная логика после выполнения запроса.")
+        print("Proxy: Дополнительное действие после выполнения запроса.")
 
 if __name__ == "__main__":
     proxy = Proxy()
