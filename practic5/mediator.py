@@ -45,5 +45,5 @@ if __name__ == "__main__":
     mediator.add_colleague(colleague1)
     mediator.add_colleague(colleague2)
 
-    colleague1.send_message("Привет от Коллеги 1")
-    colleague2.send_message("Привет от Коллеги 2")
+    colleague1.send_message(" Привет от Коллеги  1")
+    colleague2.send_message(" Привет от Коллеги  2")
