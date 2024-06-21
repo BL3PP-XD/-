@@ -4,7 +4,7 @@ class Component:
 
 class Leaf(Component):
     def operation(self):
-        print("Leaf: выполнение операции.")
+        print(" Leaf: выполнение операции.")
 
 class Composite(Component):
     def __init__(self):
